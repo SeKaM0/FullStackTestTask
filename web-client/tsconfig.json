@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "../web-server/utils/generateMaze.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

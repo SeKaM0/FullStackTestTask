@@ -1,9 +1,15 @@
-function App() {
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Dashboard from "./routes/Dashboard";
+import Login from "./routes/Login";
+import PlayingRoom from "./routes/PlayingRoom";
+
+const App: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-red-500">HUIIIII</h1>
-    </div>
+    <Router>
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Router>
   );
-}
+};
 
 export default App;
