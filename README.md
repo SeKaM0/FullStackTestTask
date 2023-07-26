@@ -85,7 +85,3 @@ Open your web browser and go to `http://localhost:3000` (if running the client i
 ## Contributing
 
 Contributions to this project are welcome! If you encounter any issues or have ideas for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
